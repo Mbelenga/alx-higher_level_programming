@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
 import string
-print(''.join([char.upper() for char in string.ascii_lowercase]))
+print(getattr(string, 'ascii_lowercase').upper().replace(getattr(string, 'ascii_lowercase')[0], ''))
