@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
-from string
-print(string.ascii_uppercase)
+import string
+print(''.join([char.upper() for char in string.ascii_lowercase]))
