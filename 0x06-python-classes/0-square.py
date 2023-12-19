@@ -3,7 +3,7 @@
 """create an empty square class"""
 
 
-class square:
+class Square:
     """empty square class"""
 
     pass
