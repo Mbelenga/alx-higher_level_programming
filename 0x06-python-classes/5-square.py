@@ -3,9 +3,9 @@
 """define a square class"""
 
 
-class square:
+class Square:
     """
-     square class with a private attribute size
+    square class with a private attribute size
     """
     def __init__(self, size=0):
         self.size = size
