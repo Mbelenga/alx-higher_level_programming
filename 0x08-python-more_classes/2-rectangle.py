@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-"""Creating a class rectangle that defines a rectangle"""
+"""Create a class Rectangle that defines a rectangle"""
+
 
 class Rectangle:
     """rectangle class"""
@@ -10,7 +11,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """Attribute retrieval"""
+        """Retrieve attribute"""
         return self.__width
 
     @width.setter
@@ -18,10 +19,17 @@ class Rectangle:
         """To set attribute"""
         if type(value) is not int:
             raise TypeError("width must be an integer")
+        if value < 0:
+            raise ValueError("width must be >= 0")
 
-        self.__height
+        self.__width = value
 
-        @height.setter
+    @property
+    def height(self):
+        """To retrieve attribute"""
+        return self.__height
+
+    @height.setter
     def height(self, value):
         """To set the attribute"""
         if type(value) is not int:
