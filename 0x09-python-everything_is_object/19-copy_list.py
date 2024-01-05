@@ -1,2 +1,2 @@
-def copy_list(l):
-    return list(l)
+def copy_list(i):
+    return list(i)
