@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
-"""contains my list"""
+""" Define the class """
+
 
 class MyList(list):
-    """A subclass of list"""
+    """ define the method """
     def print_sorted(self):
-    """Prints the sorted list"""
-    sort_the_list = sorted(self)
-    print(sort_the_list)
+        """ This method prints the sorted list """
+        sort_the_list = sorted(self)
+        print(sort_the_list)
