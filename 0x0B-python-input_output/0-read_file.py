@@ -1,10 +1,9 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 
-"""Reads a text file"""
+""" Read a text file """
+
 
 def read_file(filename=""):
-
-    """This function reads a text file"""
-
-    with open (filename, encoding="utf-8") as file_content:
+    """ This function reads a text file """
+    with open(filename, encoding="utf-8") as file_content:
         print(file_content.read(), end='')
