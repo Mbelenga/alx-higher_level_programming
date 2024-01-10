@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 
-"""A class student"""
+""" Define class Student """
 
 
-class student:
+class Student:
     def __init__(self, first_name, last_name, age):
-        """Public instance with attributes"""
+        """ Public instance with attributs """
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
 
     def to_json(self):
-        """Retrieves a dictionary"""
+        """Retrives a dictionary """
         return (self.__dict__)
