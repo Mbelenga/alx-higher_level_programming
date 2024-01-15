@@ -17,7 +17,7 @@
 """ ERRORS """
 
 #pass in not int, a string
->>> add_integer("sophia", 2)
+>>> add_integer("Yakuza", 2)
 Traceback (most recent call last):
 ...
 TypeError: a must be an integer
@@ -31,7 +31,7 @@ TypeError: a must be an integer
 
 
 #pass in a string for b
->>> add_integer(5, "terry")
+>>> add_integer(5, "topboy")
 Traceback (most recent call last):
 ...
 TypeError: b must be an integer
