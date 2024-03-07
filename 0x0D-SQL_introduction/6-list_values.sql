@@ -1,0 +1,1 @@
+-- A script that list all rows of the table first_table
