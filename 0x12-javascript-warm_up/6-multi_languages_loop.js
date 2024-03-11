@@ -5,6 +5,6 @@ const myArr = [
   'Python is cool',
   'Javascript is amazing'
 ];
-for (let i = 0; i < myArr.length; i++) {
-  console.log(myArr[i]);
+for (let index = 0; index < myArr.length; index++) {
+  console.log(myArr[index]);
 }
