@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" A script that fetches the given URL """
+""" A script that fetches the given URL, sends a request to the URL and displays the value of the variable X-Request-Id in the response header """
 
 import requests
 import sys
