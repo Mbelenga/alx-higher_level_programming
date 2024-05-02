@@ -3,13 +3,15 @@ $.ajax({
     method: 'GET',
     datatype: 'json',
     success: function (data) {
-        // Extract character
+        // extract character from the fetched data
         const movieTitles = data.results.map(function (movie) {
             return movie.title;
         })
+
+        // get the <ul> elements
         const listElement = $('UL#list_movies');
         $.each(movieTitles, function (index, title) {
-            const listitem = $('<li>' + title + '</li>');
+            const listItem = $('<li>' + title + '</li>');
             listElement.append(listItem);
         })
     }
